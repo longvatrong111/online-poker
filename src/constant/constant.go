@@ -2,26 +2,26 @@ package constant
 
 const (
 	/* combination */
-	HighCard = 1
-	Pair = 2
-	TwoPair = 3
-	ThreeOfAKind = 4
-	Straight = 5
-	Flush = 6
-	FullHouse = 7
-	FourOfAKind = 8
-	StraightFlush = 9
+	HIGHCARD int = 1
+	PAIR int = 2
+	TWOPAIRS int = 3
+	TRIP int = 4
+	STRAIGHT int = 5
+	FLUSH int = 6
+	FULLHOUSE int = 7
+	QUAD int = 8
+	STRAIGHTFLUSH int = 9
 
 	/* rank */
-	T = 10
-	J = 11
-	Q = 12
-	K = 13
-	A = 14
+	T int = 10
+	J int = 11
+	Q int = 12
+	K int = 13
+	A int = 14
 
 	/* suit */
-	heart = 1
-	diamond = 2
-	club = 3
-	spade = 4
+	HEART int = 1
+	DIAMOND int = 2
+	CLUB int = 3
+	SPADE int = 4
 )
