@@ -5,11 +5,11 @@ const (
 	HIGHCARD int = 1
 	PAIR int = 2
 	TWOPAIRS int = 3
-	TRIP int = 4
+	THREEOFAKIND int = 4
 	STRAIGHT int = 5
 	FLUSH int = 6
 	FULLHOUSE int = 7
-	QUAD int = 8
+	FOUROFAKIND int = 8
 	STRAIGHTFLUSH int = 9
 
 	/* rank */
